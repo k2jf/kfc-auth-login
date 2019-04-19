@@ -44,11 +44,12 @@ export default {
 }
 ```
 API：
+
 | 属性     | 说明       | 类型   | 默认值               |
-| -------- | ---------- | ------ | -------------------- |
-| videoSrc | 背景视频源 | String | 金风官网宣传视频地址 |
-| title    | 主标题     | String | -                    |
-| subTitle | 副标题     | String | -                    |
+| -------- | ---------- | ------ | ----------------- |
+| videoSrc | 背景视频源 | String | 金风官网宣传视频地址   |
+| title    | 主标题     | String | -                  |
+| subTitle | 副标题     | String | -                  |
 
 > 标题位置可以通过 slot 自定义，slot='title'。使用 slot 后，title 和 subTitle 失效。
 
