@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Login from '@/components/kfc-login'
+import Login from '@/components/kfc-auth-login'
 export default {
   name: 'LoginPage',
   components: {
@@ -37,7 +37,7 @@ export default {
 <CoolLogin />
 ```
 ```js
-import { CoolLogin } from '@/components/kfc-login'
+import { CoolLogin } from '@/components/kfc-auth-login'
 
 export default {
   components: { CoolLogin }
