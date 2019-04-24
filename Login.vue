@@ -2,7 +2,7 @@
   <div class="container">
     <div class="prompt">
       <h1 style="margin: 20px 0; color: #333333">
-        KFC-Login
+        kfc-auth-login
       </h1>
       <i-form
         :model="formInline"
